@@ -8,7 +8,7 @@ The docker image is based of [Anthropics development containers](https://code.cl
 3) [Get Anthropic API key](https://platform.claude.com/settings/keys)
 4) Add antrhopic API to your .env file 
 ```bash 
-echo 'ANTHROPIC_API_KEY=xxxx' > .env
+echo 'ANTHROPIC_API_KEY=[paste-in-your-api-key]' > .env
 ```
 5) Create container 
 ```bash 
