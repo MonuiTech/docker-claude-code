@@ -7,4 +7,7 @@ services:
     environment:
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
-      - ./files:/workspace
+      - workspace:/workspace
+
+volumes:
+  workspace:
