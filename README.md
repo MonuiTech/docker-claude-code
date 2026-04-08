@@ -11,8 +11,8 @@ The docker image is based on [Anthropics development containers](https://code.cl
 docker compose run claude
 ```
 7) Open docker container and go to the 'exec' tab
-8) Add antrhopic API to your env variables 
+8) Add the antrhopic API to your env variables by typing the following command into the terminal: 
 ```bash 
-export ANTHROPIC_API_KEY="sk-ant-your-new-key"
+export ANTHROPIC_API_KEY="your-api-key-from-the-anthropic-website"
 ```
 
