@@ -4,8 +4,6 @@ services:
     image: claude-code
     stdin_open: true
     tty: true
-    environment:
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
     volumes:
       - workspace:/workspace
 
