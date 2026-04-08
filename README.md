@@ -17,6 +17,6 @@ docker compose run claude
 export ANTHROPIC_API_KEY="your-api-key-from-the-anthropic-website"
 ```
 9) run claude by typing:
-    ```bash 
+```bash 
 claude
 ```
