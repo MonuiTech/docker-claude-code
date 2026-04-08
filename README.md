@@ -5,12 +5,14 @@ The docker image is based on [Anthropics development containers](https://code.cl
 ## Get started
 1) [Sign up to docker](https://app.docker.com/signup?redirectTo=/subscription%3Fplan%3Dfree)
 2) [Download docker](https://docs.docker.com/desktop/setup/install/mac-install/)
-3) [Get Anthropic API key](https://platform.claude.com/settings/keys)
-4) Add antrhopic API to your .env file 
-```bash 
-echo 'ANTHROPIC_API_KEY=[paste-in-your-api-key]' > .env
-```
-5) Create container 
+5) [Get Anthropic API key](https://platform.claude.com/settings/keys) and save to a password vault
+6) Create container 
 ```bash 
 docker compose run claude
 ```
+7) Open docker container and go to the 'exec' tab
+8) Add antrhopic API to your env variables 
+```bash 
+export ANTHROPIC_API_KEY="sk-ant-your-new-key"
+```
+
