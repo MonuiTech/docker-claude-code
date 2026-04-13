@@ -14,8 +14,10 @@ if claude --version &>/dev/null 2>&1; then
     
     # remove cache (optional but thorough) 
     rm -rf ~/.cache/claude
-fi
 
-if ! claude --version &>/dev/null 2>&1; then
-    echo "✅ Successfully uninstalled claude code"
+    if ! claude --version &>/dev/null 2>&1; then
+        echo "✅ Successfully uninstalled claude code"
+    fi
+else
+    echo "🏁 Claude is not installed, no further action required"
 fi
