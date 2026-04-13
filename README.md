@@ -7,7 +7,8 @@ The docker image is based on [Anthropic's development containers](https://code.c
 2) [Download docker](https://docs.docker.com/desktop/setup/install/mac-install/)
 3) Start up docker
 5) [Get Anthropic API key](https://platform.claude.com/settings/keys) and save to a password vault
-7) Open the terminal in your code repo and create the container with the following command: 
+6) Download this repositry and open it in your terminal
+7) Create the container with the following command: 
 ```bash 
 docker compose run claude
 ```
