@@ -9,7 +9,7 @@ The docker image is based on [Anthropic's development containers](https://code.c
 5) [Get Anthropic API key](https://platform.claude.com/settings/keys) and save to a password vault
 6) Download this repository (folder)
 7) Open the repository in your terminal
-8) Run the pre-scripts incase claude-code is already installed on your laptop
+8) Run the below command
   ``` bash
 bash create-claude-code-docker-container.sh
 ```
