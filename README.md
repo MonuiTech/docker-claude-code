@@ -7,7 +7,7 @@ The docker image is based on [Anthropic's development containers](https://code.c
 2) [Download docker](https://docs.docker.com/desktop/setup/install/mac-install/)
 3) Open the docker app 
 5) [Get Anthropic API key](https://platform.claude.com/settings/keys) and save to a password vault
-6) Download this repository (i.e folder)
+6) Download this repository (folder)
 7) Open the repository in your terminal
 8) Run the pre-scripts incase claude-code is already installed on your laptop
   ``` bash
