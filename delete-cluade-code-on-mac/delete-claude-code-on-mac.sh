@@ -1,5 +1,5 @@
 if claude --version &>/dev/null 2>&1; then
-    echo "Unsintalling claude code"
+    echo "Uninstalling claude code"
 
     rm ~/.local/bin/claude
 
