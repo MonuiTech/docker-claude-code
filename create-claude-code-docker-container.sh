@@ -32,5 +32,14 @@ else
 fi
 
 echo "[3/3] Creating docker container with claude-code."
-docker compose build --no-cache 
+while true; do
+    read -s -p "Enter your Anthropic API key (it can be found on this website: https://platform.claude.com/settings/keys): " ANTHROPIC_API_KEY
+    echo
+    if [ -n "$ANTHROPIC_API_KEY" ]; then
+        break
+    fi
+    echo "...API key cannot be empty, please try again"
+done
+export ANTHROPIC_API_KEY
+docker compose build --no-cache
 docker compose run claude
