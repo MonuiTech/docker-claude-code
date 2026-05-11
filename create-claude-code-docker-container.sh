@@ -32,4 +32,5 @@ else
 fi
 
 echo "[3/3] Creating docker container with claude-code."
+docker compose build --no-cache 
 docker compose run claude
